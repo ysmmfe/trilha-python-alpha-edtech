@@ -6,6 +6,12 @@
 # seja exibido com um número específico de casas decimais. Usar também a função round() para arredondar com um número de casas
 # decimais especificado.
 
+# Explicação:
+# É possível formatar a saída em Python utilizando a função print() por meio de uma string normal ou de uma f-string. Com uma
+# string normal, utilizamos o método format() para substituir as posições de uma variável dentro da frase com a sintaxe. Já
+# utilizando a f-string, pode-se formatar o número de casas decimais dentro da variável em {}. Utilizando a função round(),
+# as casas decimais são arredondadas e aparecem de acordo com a quantidade colocada no parâmetro da função.
+
 # Utilizando o método format para saída com 3 casas decimais
 a = 8.0
 b = 0.7
