@@ -1,7 +1,7 @@
 # Trilha Python - Alpha EdTech
 # Autor: https://github.com/ysmmfe
 
-# C1 > Python Essentials > Aula 04 - Questão 7:
+# C1 > Python Essentials > Aula 04 - Questão 8:
 # Um posto está vendendo combustíveis com a seguinte tabela de descontos:
 # Álcool: até 20 litros, desconto de 3% por litro. Acima de 20 litros, desconto de 5% por litro
 # Gasolina: até 20 litros, desconto de 4% por litro. Acima de 20 litros, desconto de 6% por litro
