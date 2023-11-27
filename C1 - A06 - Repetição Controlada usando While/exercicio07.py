@@ -8,14 +8,21 @@
 num = int(input("Informe um número inteiro: "))
 
 i = 2
+primo = True # Assume inicialmente que o número é primo
+
 if num == 2:
     print("O número 2 é um número primo! ")
-
-while i <= num:
-    if num%i==0:
-        print(f"O número {num} não é um número primo")
-        break
-    else:
-        print(f"O número {num} é um número primo!")
-        break
-i += 1
+elif num < 2:
+    print(f"O número {num} não é um número primo")
+else:
+    while i <= num // 2:
+        if num % i == 0:
+            primo = False
+            break
+        i += 1
+        
+# Verifica se é primo ou não
+if primo:
+    print(f"O número {num} é um número primo!")
+else:
+    print(f"O número {num} não é um número primo.")
